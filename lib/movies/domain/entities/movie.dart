@@ -7,8 +7,10 @@ class Movie extends Equatable {
   final String title;
   final String overview;
   final double vote_average;
+  final String poster_path;
 
   const Movie({
+    required this.poster_path,
     required this.backdrop_path,
     required this.genre_ids,
     required this.id,
@@ -25,5 +27,6 @@ class Movie extends Equatable {
         title,
         overview,
         vote_average,
+        poster_path,
       ];
 }

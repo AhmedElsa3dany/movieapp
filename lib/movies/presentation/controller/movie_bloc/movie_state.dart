@@ -6,9 +6,11 @@ class MovieState extends Equatable {
   final List<Movie> nowPlayingMovie;
   final RequestState nowPlayingState;
   final String nowplayingerrorMessage;
+
   final List<Movie> popularMovie;
   final RequestState popularState;
   final String popularerrorMessage;
+
   final List<Movie> topratedMovie;
   final RequestState topratedState;
   final String topratederrorMessage;
@@ -24,6 +26,31 @@ class MovieState extends Equatable {
     this.topratedState = RequestState.loading,
     this.topratederrorMessage = '',
   });
+
+  MovieState copyWith({
+    List<Movie>? nowPlayingMovie,
+    RequestState? nowPlayingState,
+    String? nowplayingerrorMessage,
+    List<Movie>? popularMovie,
+    RequestState? popularState,
+    String? popularerrorMessage,
+    List<Movie>? topratedMovie,
+    RequestState? topratedState,
+    String? topratederrorMessage,
+  }) {
+    return MovieState(
+      nowPlayingMovie: nowPlayingMovie ?? this.nowPlayingMovie,
+      nowPlayingState: nowPlayingState ?? this.nowPlayingState,
+      nowplayingerrorMessage:
+          nowplayingerrorMessage ?? this.nowplayingerrorMessage,
+      popularMovie: popularMovie ?? this.popularMovie,
+      popularState: popularState ?? this.popularState,
+      popularerrorMessage: popularerrorMessage ?? this.popularerrorMessage,
+      topratedMovie: topratedMovie ?? this.topratedMovie,
+      topratedState: topratedState ?? this.topratedState,
+      topratederrorMessage: topratederrorMessage ?? this.topratederrorMessage,
+    );
+  }
 
   @override
   List<Object?> get props => [
