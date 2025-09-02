@@ -1,7 +1,6 @@
 import 'package:equatable/equatable.dart';
 
 class Search extends Equatable {
-  @override
   final int id;
   final String title;
   final String poster_path;

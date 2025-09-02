@@ -9,11 +9,11 @@ The app provides a clean and modern UI to browse movies, view details, and searc
 
 ### 🏠 Movie Screen
 
-![Now Playing](screenshot\Movie_Screen.jpg)
+![Now Playing](screenshot/Movie_Screen.jpg)
 
 ### ⭐ Top Rated
 
-![Top Rated](screenshot\See_More.jpg)
+![Top Rated](screenshot/See_More.jpg)
 
 ### 🎞️ Movie Details
 
@@ -21,7 +21,7 @@ The app provides a clean and modern UI to browse movies, view details, and searc
 
 ### 🔎 Search
 
-![Search](screenshot\Search_Screen.jpg)
+![Search](screenshot/Search_Screen.jpg)
 
 ## ✨ Features
 
@@ -56,8 +56,7 @@ The app provides a clean and modern UI to browse movies, view details, and searc
    cd flutter-movie-app
    ```
 
-   2. **Add your API key into api_constants file**
-
+2. **Add your API key into api_constants file**
    ```bash
    apiKey = 'YOUR_API_KEY';
    ```
