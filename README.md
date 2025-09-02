@@ -50,7 +50,14 @@ The app provides a clean and modern UI to browse movies, view details, and searc
 ## 🚀 Installation
 
 1. **Clone the repo**
+
    ```bash
    git clone https://github.com/mohamadayash22/flutter-movie-app.git
    cd flutter-movie-app
+   ```
+
+   2. **Add your API key into api_constants file**
+
+   ```bash
+   apiKey = 'YOUR_API_KEY';
    ```
