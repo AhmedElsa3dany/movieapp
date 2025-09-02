@@ -8,7 +8,7 @@ The app provides a clean and modern UI to browse movies, view details, and searc
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshot/Movie_Screen.jpg" alt="Now Playing" width="200" style="border:4px solid gold; border-radius:20px; margin:5px"/>
+  <img src="screenshot/Movie_Screen.jpg" alt="Now Playing" width="200" style="border:20px solid gold; border-radius:20px; margin:5px"/>
   <img src="screenshot/See_More.jpg" alt="Top Rated" width="200" style="border:4px solid gold; border-radius:20px; margin:5px"/>
   <img src="screenshot/Search_Screen.jpg" alt="Search" width="200" style="border:4px solid gold; border-radius:20px; margin:5px"/>
   <img src="screenshot/Movie_Details.jpg" alt="Details" width="200" style="border:4px solid gold; border-radius:20px; margin:5px"/>
