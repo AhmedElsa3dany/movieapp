@@ -5,7 +5,7 @@ The app provides a clean and modern UI to browse movies, view details, and searc
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <p align="center">
   <img src="screenshot/Movie_Screen.jpg" alt="Now Playing" width="200" style="border:20px solid gold; border-radius:20px; margin:5px"/>
@@ -14,7 +14,7 @@ The app provides a clean and modern UI to browse movies, view details, and searc
   <img src="screenshot/Movie_Details.jpg" alt="Details" width="200" style="border:4px solid gold; border-radius:20px; margin:5px"/>
 </p>
 
-## ✨ Features
+##  Features
 
 - 📺 Display **Now Playing** movies (currently in theaters).
 - 🔥 Show **Trending** movies.
@@ -25,7 +25,7 @@ The app provides a clean and modern UI to browse movies, view details, and searc
 
 ---
 
-## 📦 Packages Used
+##  Packages Used
 
 - [equatable](https://pub.dev/packages/equatable) – for easy object comparison.
 - [dio](https://pub.dev/packages/dio) – for handling API requests.
@@ -38,7 +38,7 @@ The app provides a clean and modern UI to browse movies, view details, and searc
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 1. **Clone the repo**
 
