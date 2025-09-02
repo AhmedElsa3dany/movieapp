@@ -43,7 +43,7 @@ The app provides a clean and modern UI to browse movies, view details, and searc
 1. **Clone the repo**
 
    ```bash
-   git clone https://github.com/mohamadayash22/flutter-movie-app.git
+   git clone https://github.com/AhmedElsa3dany/movieapp.git
    cd flutter-movie-app
    ```
 
